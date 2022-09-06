@@ -1,0 +1,438 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Axiforma-Book !important;
+    font-weight: 300;
+    overflow-x: hidden;
+}
+
+::selection {
+    background-color: #ea0000 !important;
+    color: #fff;
+}
+
+p {
+    font-family: Axiforma-Book !important;
+    text-align: justify;
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: Brohoney;
+    src: url('Brohoney-Regular.woff2');
+}
+
+h1 {
+    font-family: 'Brohoney', sans-serif !important;
+}
+
+@font-face {
+    font-family: Axiforma-Bold;
+    src: url('Axiforma-Bold.woff');
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Axiforma-Bold !important;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: Axiforma-Book;
+    src: url('Axiforma-Book.woff');
+}
+
+
+
+@font-face {
+    font-family: Axiforma-Medium;
+    src: url('Axiforma-Medium.woff');
+}
+
+a {
+    font-family: Axiforma-Medium !important;
+}
+
+@font-face {
+    font-family: Axiforma-Thin;
+    src: url('Axiforma-Thin.woff');
+}
+
+footer a {
+    font-family: Axiforma-Thin !important;
+}
+
+i:hover {
+    background-color: #ea0000 !important;
+    color: #fff !important;
+}
+
+.bgRed {
+    background-color: #ea0000 !important;
+    color: #fff;
+}
+
+.eRed,
+.navbar-light .navbar-nav .active>.nav-link {
+    color: #ea0000 !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #000;
+    padding: auto;
+}
+
+nav .active {
+    color: #ea0000 !important;
+}
+
+.btn:hover {
+    color: #ea0000;
+    background: transparent !important;
+    border: 2px solid #ea0000;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.plarge {
+    font-size: 1.6rem;
+    letter-spacing: 5px;
+}
+
+/* <!-- social icons --> */
+.social {
+    border-radius: 3px;
+    background: #050403;
+    float: left;
+    padding: 10px 5px;
+    position: relative;
+    margin: 10px;
+    position: fixed;
+    transition: all 0.3s linear;
+    margin-top: -350px;
+}
+
+.social li {
+    position: relative;
+}
+
+.social li a {
+    display: block;
+    transition: all .3s linear;
+}
+
+.text-dark {
+    color: #000 !important;
+}
+
+.fw-light {
+    font-family: Axiforma-Thin !important;
+    font-weight: 100 !important;
+}
+
+.fw-bold {
+    font-family: Axiforma-bold !important;
+}
+
+.pagination .page-item.active .page-link {
+    background-color: #ea0000;
+    border-color: #ea0000;
+}
+
+.pagination .page-link {
+    color: #ea0000;
+}
+
+/* ================================================================ home page ==========================================================*/
+
+.carousel-item {
+    min-height: 570px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.carousel button {
+    background: transparent;
+    border: none;
+    margin-top: -200px;
+    color: #fff;
+}
+
+.carousel button.active {
+    color: #ea0000;
+    font-size: 2rem;
+}
+
+.carousel .carousel-indicators {
+
+    margin-left: 90%;
+}
+
+.carousel .carousel-indicators a {
+
+    color: #fff;
+    margin-top: -110px;
+    font-size: 1.2rem;
+    font-weight: 100;
+    opacity: 0.7;
+}
+
+.carousel .carousel-indicators .carousel-control-p {
+    margin-left: -95px;
+    margin-right: 100px;
+}
+
+.carousel .carousel-inner .slider1 {
+    background-image: url('../img/slider1.jpg');
+}
+
+.carousel .carousel-inner .slider2 {
+    background-image: url('../img/slider1.jpg');
+}
+
+.carousel .carousel-inner .slider3 {
+    background-image: url('../img/slider1.jpg');
+}
+
+.carousel .carousel-inner a {
+    border: 2px solid #ea0000;
+}
+
+.carousel .carousel-inner a:hover {
+    background-color: #ea0000 !important;
+    color: #fff !important;
+}
+
+.video-play {
+    float: right;
+    margin-top: -215px;
+    position: relative;
+    padding-right: 7%;
+}
+
+.project .col-md-4 .shadow-sm:hover {
+    background-color: #ea0000 !important;
+    color: #fff !important;
+
+}
+
+.project .col-md-4 .shadow-sm:hover a,
+.project .col-md-4 .shadow-sm:hover .text-dark {
+    color: #fff !important;
+}
+
+
+.project .col-md-4 .shadow-sm:hover h4 {
+    color: #ea0000 !important;
+}
+
+.homeForm {
+    background-image: url('../img/call-back-image.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+section .galleryTop {
+    background-image: url('../img/gallery-background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 550px;
+}
+
+section .gallryDown {
+    margin-top: -300px;
+}
+
+section .date {
+    width: 70px;
+    height: 70px;
+    padding: 10px;
+    margin-top: -35px;
+    position: relative;
+}
+
+
+
+
+/*=============================================== about page ===================================================================== */
+.aboutPage {
+    background-image: url('../img/about-us-banner.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 570px;
+}
+
+
+.gallryDown iframe {
+    height: 550px;
+    width: 100%;
+}
+
+.team .shadow-sm {
+    border: 2px solid #d8d8d8;
+}
+
+.team ul li {
+    margin-top: -25px;
+}
+
+/*=============================================== Projects page ===================================================================== */
+.projectsPage {
+    background-image: url('../img/projects/banner-iamge.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 570px;
+}
+
+/*=============================================== Gallery page ===================================================================== */
+.galleryPage {
+    background-image: url('../img/gallery/Banner-image.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 570px;
+}
+
+
+/*=============================================== News page ===================================================================== */
+.newsPage {
+    background-image: url('../img/blog/banner-image.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 570px;
+}
+
+
+/*=============================================== Contact page ===================================================================== */
+.contactPage {
+    background-image: url('../img/contact/banner-image.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 570px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer a {
+    font-family: Axiforma-Thin !important;
+}
+
+footer {
+    background-image: url('../img/footer-image.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+
+
+
+/* (max-width: 992px) and (min-width: 768px) */
+@media only screen and (max-width:992px)
+
+/* and (min-width: 768px) */
+    {
+    .top {
+        display: none;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        font-size: small;
+    }
+
+    .navbar-light .btn {
+        padding: 5px !important;
+    }
+
+    .display-2,
+    .display-3 {
+        font-size: 3rem;
+    }
+
+    .project .col-md-4 .shadow-sm img {
+        width: 100% !important;
+        height: auto;
+    }
+
+    section .galleryTop {
+        min-height: 300px;
+    }
+
+    section .gallryDown {
+        margin-top: -100px;
+    }
+
+    .gallryDown iframe {
+        height: 300px;
+        width: 100% !important;
+    }
+
+
+}
+
+
+
+
+
+
+
+/* (max-width: 768px) */
+@media only screen and (max-width: 768px) {
+
+    .video-play,
+    .social,
+    .carousel .carousel-indicators a {
+        display: none;
+    }
+
+    .carousel-caption {
+        right: 5%;
+        left: 5%;
+    }
+
+    section .gallryDown {
+        margin-top: -50px;
+    }
+
+
+}
+
+
+.blog {
+    display: none !important;
+}
