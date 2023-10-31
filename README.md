@@ -1,3 +1,17 @@
+**Excel Holdings**
+https://www.excelholdings.pk/
+is an evolving name in the field of Real Estate. It's a one-stop solution to all your marketing, investment, management, and construction needs.
+
+**Technology Stack:**
+
+Developed in Laravel
+
+**Backend language**: PHP
+
+**Frontend technologies**: HTML, CSS, Bootstrap, and JavaScript
+
+PSD to HTML conversion was performed
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
